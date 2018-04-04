@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import index from './Index'
 
-import './assets/scss/normalize.scss'
+import 'normalize.css'
 import './assets/scss/common.scss'
 
 Vue.config.productionTip = false
@@ -12,5 +12,5 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   components: { index },
-  template: '<Index/>'
+  template: '<index/>'
 })
