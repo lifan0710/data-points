@@ -66,15 +66,15 @@ export default {
       width: 25px;
       right: -25px;
       top: 20px;
-      background-color: #f7f7f7;
+      background-color: #333;
       border: 1px solid #d2d2d2;
       border-left: 0;
-      border-top-right-radius: 3px;
-      border-bottom-right-radius: 3px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
       line-height: 22px;
       text-align: center;
       font-size: 22px;
-      color: #0075bb;
+      color: #fff;
       cursor: pointer;
     }
 
