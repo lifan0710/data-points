@@ -17,6 +17,85 @@ html, body {
   clear: both;
 }
 
+/* common setting */
+body {
+  background: url(/static/image/main-bg.png) repeat;
+  background-size: 8px 8px;
+}
+.dp-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+.dp-component:hover:after, .dp-component.hover:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,192,222,.2);
+  border: 1px solid #419bf9;
+}
+.dp-charts-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* components setting */
+.com-setting {
+  background-color: #f7f8fa;
+  height: 100%;
+  overflow-y: auto;
+}
+.com-setting-heading {
+  text-align: center;
+  font-weight: 400;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.com-setting-input {
+  padding: 0 5px;
+}
+.com-setting-input-text {
+  display: inline-block;
+  color: #888;
+  margin-right: 10px
+}
+.dp-form-item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.dp-form-item:after, .dp-form-item:before {
+  display: table;
+  content: "";
+}
+.dp-form-item:after {
+  clear: both;
+}
+.dp-form-label {
+  padding: 10px 0;
+  display: inline-block;
+  color: #333;
+  position: absolute;
+  left: 0;
+  width: 80px;
+  line-height: 1;
+}
+.dp-form-label i.question {
+  color: #00c1de;
+  margin-left: 5px;
+}
+.dp-form-input-wrap {
+  margin-left: 80px;
+}
+
+
 /* webkit scrollbar style */
 ::-webkit-scrollbar{
   background:tranparent

@@ -17,7 +17,7 @@ export default new Vuex.Store({
     // 画布设置选项
     pageSetting: {},
     // 页面缩放比例
-    pageScale: 0,
+    pageScale: 0.6,
     // 顶部组件菜单
     legendMenu: []
   },
