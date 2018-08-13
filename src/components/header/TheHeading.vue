@@ -68,9 +68,8 @@ export default {
   top: 0;
   height: 60px;
   color: #fff;
-  background-color: #341e52;
+  background-color: #292929;
   user-select: none;
-  background: linear-gradient(to bottom, #24005f, #341e52);
 
   .logo-wrap {
     .logo {
@@ -101,6 +100,7 @@ export default {
       height: 60px;
       width: 60px;
       text-align: center;
+      line-height: 25px;
       cursor: pointer;
       font-size: 12px;
       position: relative;
@@ -108,7 +108,7 @@ export default {
       i {
         display: block;
         font-size: 20px;
-        margin-top: 15px;
+        margin-top: 10px;
       }
 
       &:hover {
@@ -155,6 +155,7 @@ export default {
         margin-right: 10px;
         margin-bottom: 10px;
         list-style: none;
+        line-height: 15px;
 
         h6 {
           font-weight: 400;
@@ -162,8 +163,9 @@ export default {
         }
 
         img {
-          width: 100px;
-          height: 78px;
+          display: block;
+          width: 100%;
+          height: 100%;
         }
 
         &:hover {
@@ -197,6 +199,7 @@ export default {
         cursor: pointer;
         height: 60px;
         padding: 0 15px;
+        line-height: 25px;
 
         &:hover {
           background-color: #444
@@ -205,7 +208,7 @@ export default {
         i {
           display: block;
           font-size: 20px;
-          margin-top: 15px;
+          margin-top: 10px;
         }
       }
     }
