@@ -3,6 +3,7 @@
     <the-heading></the-heading>
     <the-leftside-layer></the-leftside-layer>
     <the-rightside-setting></the-rightside-setting>
+    <the-footer></the-footer>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import theHeading from './components/header/TheHeading'
 import theLeftsideLayer from './components/leftside/TheLeftsideLayer'
 import theRightsideSetting from './components/rightside/TheRightsideSetting'
+import theFooter from './components/footer/TheFooter'
 
 export default {
   name: 'index',
@@ -19,7 +21,8 @@ export default {
   components: {
     theHeading,
     theLeftsideLayer,
-    theRightsideSetting
+    theRightsideSetting,
+    theFooter
   }
 }
 </script>
