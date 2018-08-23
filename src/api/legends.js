@@ -6,7 +6,7 @@ const charts = {
   title: '系统图表',
   icon: 'fa-area-chart',
   components: [
-    {id: 1, title: '基本柱状图', componentName: 'baseBar', image: 'static/image/charts-base-bar.png', enabled: true},
+    {id: 1, title: '基本柱状图', componentName: 'baseBar', image: 'static/image/charts-base-bar.png', enabled: false},
     {id: 2, title: '堆叠柱状图', componentName: 'stackBar', image: 'static/image/charts-stack-bar.png', enabled: false},
     {id: 3, title: '水平堆叠柱状图', componentName: 'horizontalStackBar', image: 'static/image/charts-horizontal-stack-bar.png', enabled: false},
     {id: 4, title: '胶囊柱状图', componentName: 'capsuleBar', image: 'static/image/charts-capsule-bar.png', enabled: false},
@@ -46,7 +46,7 @@ const text = {
   title: '文字',
   icon: 'fa-font',
   components: [
-    {id: 20, title: '通用标题', componentName: 'commonTitle', image: 'static/image/text-common-title.png', enabled: true, default: {}},
+    {id: 20, title: '通用标题', componentName: 'commonTitle', image: 'static/image/text-common-title.png', enabled: false, default: {}},
     {id: 21, title: 'K-V表格', componentName: 'keyValueTable', image: 'static/image/text-key-value-table.png', enabled: false},
     {id: 22, title: '轮播列表', componentName: 'carouselList', image: 'static/image/text-carousel-list.png', enabled: false},
     {id: 23, title: '滚动文本', componentName: 'scrollText', image: 'static/image/text-scroll-text.png', enabled: false},
@@ -58,11 +58,11 @@ const tools = {
   title: '辅助图形',
   icon: 'fa-object-group',
   components: [
-    {id: 25, title: '自定义背景块', componentName: 'customBackground', image: 'static/image/tools-custom-background.png', enabled: true, default: {}},
+    {id: 25, title: '自定义背景块', componentName: 'customBackground', image: 'static/image/tools-custom-background.png', enabled: false, default: {}},
     {id: 26, title: '边框', componentName: 'border', image: 'static/image/tools-border.png', enabled: false},
     {id: 27, title: '单图片', componentName: 'singleImage', image: 'static/image/tools-single-image.png', enabled: false},
     {id: 28, title: '轮播图', componentName: 'carouselImage', image: 'static/image/tools-carousel-image.png', enabled: false},
-    {id: 29, title: '字体图标', componentName: 'iconFont', image: 'static/image/tools-icon-font.png', enabled: true, default: {}}
+    {id: 29, title: '字体图标', componentName: 'iconFont', image: 'static/image/tools-icon-font.png', enabled: false, default: {}}
   ]
 }
 

@@ -33,6 +33,10 @@ export default new Vuex.Store({
     // 设置顶部组件菜单
     setLegendMenu: (state, legends) => {
       state.legendMenu = legends
+    },
+    // 设置页面缩放比例
+    resizePage: (state, pageScale) => {
+      state.pageScale = pageScale
     }
   },
   actions: {
