@@ -67,6 +67,7 @@ export default {
   right: 0;
   top: 0;
   height: 60px;
+  z-index: 999;
   color: #fff;
   background-color: #292929;
   user-select: none;
