@@ -13,7 +13,7 @@ export default new Vuex.Store({
     // 画布中渲染组件列表
     inRenderComponentList: [],
     // 已选中组件列表
-    currentComponentList: [],
+    selectedComponentList: [],
     // 画布设置选项
     pageSetting: {},
     // 页面缩放比例

@@ -25,7 +25,7 @@ export default {
       return this.$store.state.isCollapseLeftside
     },
     isChecked () {
-      let checkedComponents = this.$store.state.currentComponentList
+      let checkedComponents = this.$store.state.selectedComponentList
 
       if (checkedComponents.length) return true
       else return false
