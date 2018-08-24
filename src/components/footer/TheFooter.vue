@@ -33,7 +33,7 @@ export default {
         return this.$store.state.pageScale * 100
       },
       set (value) {
-        // this.$store.commit('resizePage', value / 100)
+        this.$store.commit('resizePage', value / 100)
       }
     },
     systemInfo () {
@@ -42,10 +42,10 @@ export default {
   },
   methods: {
     zoomUp () {
-      // this.$store.commit('resizePage', this.$store.state.pageScale + 0.1)
+      this.$store.commit('resizePage', this.$store.state.pageScale + 0.1)
     },
     zoomDown () {
-      // this.$store.commit('resizePage', this.$store.state.pageScale - 0.1)
+      this.$store.commit('resizePage', this.$store.state.pageScale - 0.1)
     }
   }
 }
