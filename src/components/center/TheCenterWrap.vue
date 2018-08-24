@@ -30,6 +30,12 @@ export default {
     pageScale () {
       let scale = this.$store.state.pageScale
       return { transform: 'scale(' + scale + ')' }
+    },
+    inRenderComponents () {
+      return this.$store.state.inRenderComponentList
+    },
+    selectedComponents () {
+      return this.$store.state.selectedComponentList
     }
   },
   methods: {
